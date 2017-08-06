@@ -1,0 +1,25 @@
+{
+  "name": "NodejsRESTfulAPI",
+  "version": "1.0.0",
+  "description": "RESTful API Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Restfull",
+    "API"
+  ],
+  "author": "me",
+  "license": "na",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chance": "^1.0.10",
+    "express": "^4.15.3",
+    "sqlite3": "^3.1.8"
+  }
+}
